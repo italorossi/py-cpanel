@@ -1,0 +1,31 @@
+py-cpanel - Python interface to manage cpanel domains
+
+Author: Ítalo Rossi 
+Email:   italorossib@gmail.com
+Version: 0.1alpha
+
+Documentation
+
+>>> from cpaneldomain import CpanelDomain
+>>> my_domain = CpanelDomain("domain.com")
+>>> my.domain.contactemail
+'contact@domain.com'
+>>> my_domain.suspended
+False
+>>> my_domain.email_accounts
+ {'email_1': {'used_space': 11829248, 'quota_limit': 209715200}, 'email_2': {'used_space': 11816960, 'quota_limit': 104857600}
+ 
+Methods implemented:
+
+    admin_user
+    contactemail
+    domain_name
+    email_accounts
+    hosting_plan
+    quota_limit
+    redirects
+    suspended
+    used_bandwidth
+    used_space
+    
+Feel free to submit bugs and feature requests.
